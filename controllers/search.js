@@ -1,10 +1,12 @@
-AngularJSApp.controller("SearchController", function($scope, $location, $routeParams) {
-    $scope.message = "Hello World!";
-
-    console.log($location.url());
-    console.log($routeParams)
-
-    $scope.callMessage = function() {
-        alert($scope.message);
+AngularJSApp.controller("SearchController", function($scope, $http) {
+    
+    $scope.onHttpRequestSuccess = function(data) {
+        $scope.platforms = data;
     };
+
+    $http({
+        url: 'json/platforms.json',
+        method: 'GET'
+    }).success($scope.onHttpRequestSuccess);
+
 });

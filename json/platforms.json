@@ -1,0 +1,72 @@
+[
+    {
+        "name" : "Android",
+        "image" : "android.png",
+        "url" : "http://developer.android.com/"
+    },
+    {
+        "name" : "AngularJS",
+        "image" : "angularjs.png",
+        "url" : "http://www.angularjs.org/"
+    },
+    {
+        "name" : "Appengine",
+        "image" : "appengine.png",
+        "url" : "https://cloud.google.com/products/app-engine/"
+    },
+    {
+        "name" : "Bootstrap",
+        "image" : "bootstrap.png",
+        "url" : "http://getbootstrap.com/"
+    },
+    {
+        "name" : "Facebook SDK",
+        "image" : "facebook-sdk.png",
+        "url" : "https://developers.facebook.com/"
+    },
+    {
+        "name" : "Git",
+        "image" : "git.png",
+        "url" : "http://git-scm.com/"
+    },
+    {
+        "name" : "Google Maps",
+        "image" : "google-maps.png",
+        "url" : "https://developers.google.com/maps/"
+    },
+    {
+        "name" : "HTML5",
+        "image" : "html5.png",
+        "url" : "http://en.wikipedia.org/wiki/HTML5"
+    },
+    {
+        "name" : "ImpactJS",
+        "image" : "impact-js.png",
+        "url" : "http://impactjs.com/"
+    },
+    {
+        "name" : "Java",
+        "image" : "java.png",
+        "url" : "https://www.java.com/en/"
+    },
+    {
+        "name" : "JavaScript",
+        "image" : "javascript.png",
+        "url" : "http://en.wikipedia.org/wiki/JavaScript"
+    },
+    {
+        "name" : "Jquery",
+        "image" : "jquery.png",
+        "url" : "http://jquery.com/"
+    },
+    {
+        "name" : "PHP",
+        "image" : "php.png",
+        "url" : "http://php.net/"
+    },
+    {
+        "name": "Python",
+        "image": "python.png",
+        "url": "https://www.python.org/"
+    }
+]

@@ -7,19 +7,43 @@
     <title>Angular JS Code Camp</title>
 
     <link href="libs/bootstrap-3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+    section {
+      padding: 80px;
+    }
+    .platforms li {
+      list-style: none;
+      font-weight: bold;
+    }
+    .platform {
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    </style>
   </head>
   <body>
-    <div ng-controller="SearchController" class="container">
+    <section ng-controller="SearchController" class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h1>{{message}}</h1>
           <div class="form-group">
-            <input ng-model="message" type="text" class="form-control">
-          </div>
-          <div class="form-group">
-            <button class="btn btn-primary" ng-click="callMessage()">{{message}}</button>
+            <input ng-model="platformName" type="text" class="form-control">
           </div>
         </div>    
+      </div>
+      <div class="row">
+        <ul class="platforms">
+          <li class="col-xs-4 text-center" ng-repeat="platform in platforms">
+            <a class="platform" href="{{platform.url}}">
+              <img src="images/{{platform.image}}" alt="{{platform.name}}" class="img-responsive">
+              <h4>{{platform.name}}</h4>
+              <h6>{{platform.url}}</h6>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
 
