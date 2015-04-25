@@ -2,71 +2,85 @@
     {
         "name" : "Android",
         "image" : "android.png",
-        "url" : "http://developer.android.com/"
+        "url" : "http://developer.android.com/",
+        "price" : 20
     },
     {
         "name" : "AngularJS",
         "image" : "angularjs.png",
-        "url" : "http://www.angularjs.org/"
+        "url" : "http://www.angularjs.org/",
+        "price" : 10
     },
     {
         "name" : "Appengine",
         "image" : "appengine.png",
-        "url" : "https://cloud.google.com/products/app-engine/"
+        "url" : "https://cloud.google.com/products/app-engine/",
+        "price" : 20
     },
     {
         "name" : "Bootstrap",
         "image" : "bootstrap.png",
-        "url" : "http://getbootstrap.com/"
+        "url" : "http://getbootstrap.com/",
+        "price" : 5
     },
     {
         "name" : "Facebook SDK",
         "image" : "facebook-sdk.png",
-        "url" : "https://developers.facebook.com/"
+        "url" : "https://developers.facebook.com/",
+        "price" : 15
     },
     {
         "name" : "Git",
         "image" : "git.png",
-        "url" : "http://git-scm.com/"
+        "url" : "http://git-scm.com/",
+        "price" : 10
     },
     {
         "name" : "Google Maps",
         "image" : "google-maps.png",
-        "url" : "https://developers.google.com/maps/"
+        "url" : "https://developers.google.com/maps/",
+        "price" : 4
     },
     {
         "name" : "HTML5",
         "image" : "html5.png",
-        "url" : "http://en.wikipedia.org/wiki/HTML5"
+        "url" : "http://en.wikipedia.org/wiki/HTML5",
+        "price" : 6
     },
     {
         "name" : "ImpactJS",
         "image" : "impact-js.png",
-        "url" : "http://impactjs.com/"
+        "url" : "http://impactjs.com/",
+        "price" : 99
     },
     {
         "name" : "Java",
         "image" : "java.png",
-        "url" : "https://www.java.com/en/"
+        "url" : "https://www.java.com/en/",
+        "price" : 44
     },
     {
         "name" : "JavaScript",
         "image" : "javascript.png",
-        "url" : "http://en.wikipedia.org/wiki/JavaScript"
+        "url" : "http://en.wikipedia.org/wiki/JavaScript",
+        "price" : 66
     },
     {
         "name" : "Jquery",
         "image" : "jquery.png",
-        "url" : "http://jquery.com/"
+        "url" : "http://jquery.com/",
+        "price" : 77
     },
     {
         "name" : "PHP",
         "image" : "php.png",
-        "url" : "http://php.net/"
+        "url" : "http://php.net/",
+        "price" : 11
     },
     {
         "name": "Python",
         "image": "python.png",
-        "url": "https://www.python.org/"
+        "url": "https://www.python.org/",
+        "price" : 22
     }
 ]

@@ -6,6 +6,10 @@ AngularJSApp.config(function($routeProvider){
             controller: 'SearchController',
             templateUrl: 'views/home.html'
         })
+        .when('/checkout/:checkoutPrice/:checkoutEmail/:checkoutName/:checkoutList', {
+            controller: 'SearchController',
+            templateUrl: 'views/checkout.html'
+        })
         .when('/about/:platformName', {
             controller: 'SearchController',
             templateUrl: 'views/about.html'
