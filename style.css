@@ -8,7 +8,7 @@ ul.platforms li {
   list-style: none;
 }
 a {
-  opacity: 0.8;
+  opacity: 0.9;
   -webkit-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
@@ -21,4 +21,7 @@ a:hover {
   font-weight: bold;
   font-size: 20px;
   margin: 0;
+}
+.platform-image img {
+  margin: 20px auto;
 }

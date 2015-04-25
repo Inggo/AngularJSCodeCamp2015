@@ -12,19 +12,8 @@
     </style>
   </head>
   <body>
-    <div ng-controller="SearchController" class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="form-group">
-            <input ng-model="platformName" type="text" class="form-control" placeholder="Enter platform to search">
-          </div>
-        </div>    
-      </div>
-      <ul class="platforms row">
-        <li class="col-xs-12 col-sm-6 col-md-4 text-center" ng-repeat="platform in platforms | filter:platformName">
-          <thumbnail platform="platform"></thumbnail>
-        </li>
-      </ul>
+    <div class="container">
+      <ng-view></ng-view>
     </div>
 
     <script src="libs/jquery-1.11.2.min.js"></script>
